@@ -21,11 +21,6 @@ body {
 }
 
 
-
-.intro_title {
-  
-}
-
 /* header */
 
 .header { 
@@ -192,11 +187,19 @@ body {
 /* features */
 
 .features {
-  margin: 150px 0px;
+  position: relative;
+  padding: 150px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  width: 100%;
+  height: 120vh;
+  background: url("img/f_bg.png") center no-repeat 
+  / cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) , #f9fbff, rgb(225, 225, 225, 0)); */
+  z-index: -2;
 }
 
 .features_title {
@@ -268,3 +271,65 @@ body {
   
 }
 
+/* options */
+
+.options {
+  display: flex;
+  flex-direction: row;
+}
+
+.data_analysis {
+  align-content: center;
+  margin: 250px 90px 0 0;
+}
+
+.data_analysis_image {
+  float: right;
+  margin: 100px 50px 0 0;
+}
+
+
+.data_analysis h4 { 
+  max-width: 400px;
+font-size: 30px;
+font-weight: 900;
+color: #07222f;
+white-space: pre-line;
+line-height: 1.3;
+}
+
+.data_analysis p { 
+  color: #39393a;
+  margin: 5px 0;
+  white-space: pre-line;
+  line-height: 1.3;
+}
+
+  .online_chatting {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .chatting_image {
+    float: left;
+    margin: 20px 0 0 250px;
+  }
+
+ .chatting_description h4 {
+    max-width: 1110px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #07222f;
+    margin: 100px 0 0 0px;
+    white-space: pre-line;
+    line-height: 1.3;
+  }
+
+  .chatting_description p {
+    max-width: 1150px;
+    max-height: 100px;
+    color: #39393a;
+    margin: 15px 0;
+    white-space: pre-line;
+    line-height: 1.3;
+  }
