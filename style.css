@@ -126,7 +126,7 @@ body {
 
 .intro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
   height: 120vh;
@@ -138,39 +138,133 @@ body {
 
 
 .intro_inner {
+  position: absolute;
+ top: 230px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: center;
 }
 
 
 .intro_title {
+
   width: 90px;
   font-size: 50px;
   font-weight: 700;
   color: #ffffff;
   white-space: pre-line;
   line-height: 1.1;
+  z-index: 2;
+
 }
 
 .intro p {
   padding: 20px 0;
-  width: 500px;
+  width: 300px;
   color: #ffffff;
   font-weight: 200;
+  z-index: 2;
 }
 
 .download {
+
   color: #3a9ef7;
     border-radius: 4px;
     margin: 0px 50px 0 0px;
     padding: 12px 30px;
     font-weight: 700;
+    z-index: 2
 }
 
 .intro_image {
-  display: none;
+  position: relative;
+  top: 150px;
+  max-height: 900px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  float: right;
+  
 }
 
 
+/* features */
+
+.features {
+  margin: 150px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.features_title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #07222f;
+  margin: 5px 0;
+  white-space: pre-line;
+  line-height: 1.1;
+  z-index: 2;
+}
+
+
+.features_heading {
+  text-align: center;
+  padding: 100px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+}
+
+.services_description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.3;
+  color: #07222f;
+}
+
+.services_h {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.services_description p {
+  padding: 20px 0;
+  width: 300px;
+  font-weight: 200;
+  z-index: 2;
+}
+
+.shape {
+  position: relative;
+  height: 155px;
+  width: 155px;
+  background-color: #eef5ff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px auto;
+  z-index: -1;
+}
+
+.features_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  z-index: 1;
+  justify-content: space-around;
+  margin: 0px 0px -170px 0;
+  
+}
 
