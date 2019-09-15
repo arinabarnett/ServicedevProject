@@ -245,6 +245,8 @@ body {
   width: 300px;
   font-weight: 200;
   z-index: 2;
+  text-align: center;
+  color: #027f88;
 }
 
 .shape {
@@ -331,5 +333,92 @@ line-height: 1.3;
     color: #39393a;
     margin: 15px 0;
     white-space: pre-line;
+    line-height: 1.3;
+  }
+
+  /* work fields */
+
+  .work_fields {
+  position: relative;
+  padding: 150px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 200vh;
+  background: url("img/wfields_bgr.png") center no-repeat 
+  / cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) , #f9fbff, rgb(225, 225, 225, 0)); */
+  z-index: -2;
+  }
+
+  .work_icons {
+    position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px auto;
+  z-index: 1;
+  justify-content: space-around;
+  
+  }
+
+  .w_title {
+    text-align: center;
+  padding: 200px 0 20px 0;
+  }
+
+  .w_title h3 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 15px 0;
+    white-space: pre-line;
+    line-height: 1.1;
+    z-index: 2;
+  }
+
+  .w_title p {
+    font-weight: 500;
+    color: #ffffff;
+    margin: 5px 0;
+    white-space: pre-line;
+    line-height: 1.1;
+    z-index: 2;
+  }
+
+  .work_h {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+  }
+
+  .work_h h4 {
+    margin: 0px 0 7px 0;
+  }
+
+  .work_h p {
+    padding: 20px;
+    width: 300px;
+    font-weight: 200;
+    z-index: 2;
+  }
+  .work_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 1.3;
+    color: #ffffff;
+  }
+
+  .work_description  p {
+    text-align: center;
+    max-width: 250px;
+    max-height: 100px;
     line-height: 1.3;
   }
