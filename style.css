@@ -49,7 +49,6 @@ body {
 
   .nav {
     font-size: 15px;
-    
   }
 
   .nav_links {
@@ -480,4 +479,70 @@ line-height: 1.3;
 
   .logos_icons img:hover{
     filter: none;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+  padding: 130px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 35vh;
+  background: url("img/footer_bgr.png") center no-repeat 
+  / cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) , #f9fbff, rgb(225, 225, 225, 0)); */
+  
+}
+
+.footer_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0px 0px 0px;
+}
+
+
+.footer_nav {
+
+}
+
+.footer_links {
+  color: #ffffff;
+    text-decoration: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_link {
+  position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    margin: 0px 6px 0 30px;
+    font-weight: 500;
+}
+
+.footer_link:hover {
+  color: rgba(37, 37, 37, 0.952);
+}
+
+.footer_link:hover::after {
+  opacity: 1;
+}
+
+.footer img {
+  margin: 0 -25px 0 15px;
 }
