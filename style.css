@@ -384,7 +384,7 @@ body {
 
 .data_analysis {
   align-content: center;
-  margin: 250px 90px 0 0;
+  margin: 100px 90px 0 0;
 }
 
 .data_analysis_image {
@@ -400,6 +400,7 @@ font-weight: 900;
 color: #07222f;
 white-space: pre-line;
 line-height: 1.3;
+margin: 100px 0px 0px 0px;
 }
 
 .data_analysis p { 
@@ -407,6 +408,7 @@ line-height: 1.3;
   margin: 5px 0;
   white-space: pre-line;
   line-height: 1.3;
+  
 }
 
   .online_chatting {
@@ -416,21 +418,27 @@ line-height: 1.3;
 
   .chatting_image {
     float: left;
-    margin: 20px 0 0 250px;
+    margin: 20px 0px 0px 250px;
+  }
+
+  .chatting_image img {
+    width: 550px;
+    height: 550px;
+    margin: 0 0 0 0px;
   }
 
  .chatting_description h4 {
-    max-width: 1110px;
+  max-width: 1200px;
     font-size: 30px;
     font-weight: 900;
     color: #07222f;
-    margin: 100px 0 0 0px;
+    margin: 140px 0 0 0px;
     white-space: pre-line;
     line-height: 1.3;
   }
 
   .chatting_description p {
-    max-width: 1150px;
+    max-width: 1100px;
     max-height: 100px;
     color: #39393a;
     margin: 15px 0;
@@ -447,7 +455,7 @@ line-height: 1.3;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 220vh;
+  height: 1500px;
   background: url("img/wfields_bgr.png") center no-repeat 
   / cover;
   -webkit-background-size: cover;
@@ -469,7 +477,7 @@ line-height: 1.3;
 
   .w_title {
     text-align: center;
-  padding: 200px 0 20px 0;
+  padding: 300px 0 20px 0;
   }
 
   .w_title h3 {
@@ -534,7 +542,7 @@ line-height: 1.3;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     
     }
 
@@ -593,7 +601,7 @@ line-height: 1.3;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 35vh;
+  height: 230px;
   background: url("img/footer_bgr.png") center no-repeat 
   / cover;
   -webkit-background-size: cover;
@@ -650,6 +658,45 @@ line-height: 1.3;
   margin: 0 -25px 0 15px;
 }
 
+/* Modal pop up*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1080px){
@@ -675,18 +722,65 @@ line-height: 1.3;
   }
 }
 
+/* iPad Pro */
 @media screen and (max-width: 1024px) {
   .intro {
     height: 900px;
   }
   .intro_title {
     margin: 30px 0 0 0;
-    font-size: 50px;
+    font-size: 60px;
   }
   .intro p {
-    font-size: 15px;
+    font-size: 18px;
   }
-
+  .features {
+    height: 910px;
+  }
+  .features_heading h2 {
+    font-size: 40px;
+  }
+  .features_heading p {
+    font-size: 20px;
+  }
+  .services_h {
+    font-size: 23px;
+  }
+  .services_description p {
+    font-size: 20px;
+  }
+  .options {
+    height: 650px;
+  }
+  .data_analysis {
+    margin: 10px 30px 0 0;
+  }
+  .data_analysis p {
+   font-size: 17px;
+  }
+  .chatting_description h4 {
+    margin: 200px 0px 0px 0px;
+  }
+  .chatting_description p, .work_description p {
+    font-size: 17px;
+    max-width: 900px;
+}
+  .chatting_image {
+    margin: 90px 0px 0px 50px;
+  }
+.work_fields {
+  height: 1600px;
+}
+.w_title h3 {
+  font-size: 35px;
+}
+ .work_h h4, .w_title p {
+   font-size: 20px;
+ }
+ .footer_logo {
+  margin: 0 0 0 30px;
+ }
+ 
 }
 
 @media screen and (max-width: 940px){
@@ -698,13 +792,67 @@ line-height: 1.3;
 @media screen and (max-width: 768px){
   .intro_title {
     margin: 30px 0 0 0;
-    font-size: 40px;
+    font-size: 45px;
   }
   .intro p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .intro {
-    height: 800px;
+    height: 900px;
+  }
+  .features {
+    height: 1000px;
+  }
+  .features_heading p {
+    font-size: 20px;
+  }
+  .data_analysis {
+    margin: 100px 30px 0 20px;
+  }
+  .work_h h4 {
+   font-size: 23px;
+   position: absolute;
+   margin: 10px 10px;
+   top: 50%;
+  }
+  .work_description p {
+    font-size: 17px;
+  }
+  
+  .data_analysis h4 {
+    margin: 0 0 0 30px;
+  }
+  .data_analysis p {
+    width: 300px;
+    margin: 0 0 0 30px;
+  }
+  .data_analysis_image img {
+    margin: 160px 0 0 0;
+    width: 400px;
+    height: 400px;
+  }
+  .chatting_description h4 {
+    margin: 100px 30px 0 0px;
+  }
+  .chatting_image img {
+    width: 400px;
+    height: 400px;
+  }
+  .chatting_description p {
+    margin: 0 30px 0 0;
+    font-size: 17px;
+  }
+  .logos_title h3{
+   font-size: 30px;
+  }
+  .footer {
+    height: 230px;
+  }
+  .logos {
+    height: 1000px;
+  }
+  .logos_icons {
+    flex-wrap: wrap;
   }
 }
 
@@ -712,20 +860,51 @@ line-height: 1.3;
 @media screen and (max-width: 730px){
   .nav_links {
     width: 100%;
-    height: 110vh;
+    height: 700px;
   }
-  
-  .intro_title {
-    width: 50px;
-    font-size: 40px;
-    font-weight: 700;
-    color: #ffffff;
-    white-space: pre-line;
-    line-height: 1.1;
-    z-index: 2;
-  
+  .intro {
+    height: 720px;
   }
-  
+  .features {
+    height: 1100px;
+  }
+  .data_analysis_image img {
+    margin: 0 0 0 10px;
+  }
+  .data_analysis p {
+    margin: 20px 0 0 30px;
+  }
+  .data_analysis_image {
+    margin: 0 auto;
+  }
+  .chatting_description {
+    margin: 200px 0 0 30px;
+  }
+  .chatting_image {
+    display: none;
+  }
+  .work_icons {
+    max-width: 200px;
+    flex-direction: column;
+    z-index: -10;
+  }
+  .w_icon1, .w_icon2, .w_icon3 {
+    margin: 50px auto;
+  }
+  .work_h, .work_description {
+  flex-direction: column;
+  z-index: 10;
+  top: 25%;
+  left: 25%;
+  }
+  .work_h{
+    
+  }
+  .work_h h4{
+    color: rgb(7, 6, 6);
+    z-index: 10;
+
+  }
   .intro p {
     padding: 20px 0;
     width: 300px;
@@ -762,9 +941,25 @@ line-height: 1.3;
     width: 250px;
   }
   .intro {
-    height: 100vh;
+    height: 650px;
   }
   .nav_links {
     padding: 90px;
+    height: 650px;
   }
+  .features {
+    height: 1000px;
+  }
+  .features_icons {
+    display: flex;
+    flex-direction: column;
+ }
+ .services {
+  display: flex;
+  flex-direction: column;
+ }
+ .shape {
+  width: 115px;
+  height: 115px;
+}
 }
