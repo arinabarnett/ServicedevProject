@@ -1,0 +1,365 @@
+@media screen and (max-width: 1080px){
+  .intro_inner, .header_logo {
+    margin: 0 auto 0 50px;
+  }
+  .intro_title {
+    width: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: pre-line;
+    line-height: 1.1;
+    z-index: 2;
+  }
+  
+  .intro p {
+    padding: 20px 0;
+    width: 300px;
+    color: #ffffff;
+    font-weight: 200;
+    z-index: 2;
+  }
+}
+
+/* iPad Pro */
+@media screen and (max-width: 1024px) {
+  .intro {
+    height: 900px;
+  }
+  .intro_title {
+    margin: 30px 0 0 0;
+    font-size: 60px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  .features {
+    height: 910px;
+  }
+  .features_heading h2 {
+    font-size: 40px;
+  }
+  .features_heading p {
+    font-size: 20px;
+  }
+  .services_h {
+    font-size: 23px;
+  }
+  .services_description p {
+    font-size: 20px;
+  }
+  .options {
+    height: 650px;
+  }
+  .data_analysis {
+    margin: 10px 30px 0 0;
+  }
+  .data_analysis p {
+   font-size: 17px;
+  }
+  .chatting_description h4 {
+    margin: 200px 0px 0px 0px;
+  }
+  .chatting_description p, .work_description p {
+    font-size: 17px;
+    max-width: 900px;
+}
+  .chatting_image {
+    margin: 90px 0px 0px 50px;
+  }
+.work_fields {
+  height: 1600px;
+}
+.w_title h3 {
+  font-size: 35px;
+}
+ .work_h h4, .w_title p {
+   font-size: 20px;
+ }
+ .footer_logo {
+  margin: 0 0 0 30px;
+ }
+ .right_bg_block {
+   display: none;
+ }
+ 
+}
+
+@media screen and (max-width: 940px){
+  .header_logo {
+    opacity: 0;
+  }
+}
+
+/* iPad */
+@media screen and (max-width: 768px){
+  .intro_title {
+    margin: 30px 0 0 0;
+    font-size: 45px;
+  }
+  .intro p {
+    font-size: 20px;
+  }
+  .intro {
+    height: 900px;
+  }
+  .features {
+    height: 1000px;
+  }
+  .features_heading p {
+    font-size: 20px;
+  }
+  .data_analysis {
+    margin: 100px 30px 0 20px;
+  }
+  .work_h h4 {
+   font-size: 23px;
+  }
+  .work_description p {
+    font-size: 17px;
+  }
+  
+  .data_analysis h4 {
+    margin: 0 0 0 30px;
+  }
+  .data_analysis p {
+    width: 300px;
+    margin: 0 0 0 30px;
+  }
+  .data_analysis_image img {
+    margin: 160px 0 0 0;
+    width: 400px;
+    height: 400px;
+  }
+  .chatting_description h4 {
+    margin: 100px 30px 0 0px;
+  }
+  .chatting_image img {
+    width: 400px;
+    height: 400px;
+  }
+  .chatting_description p {
+    margin: 0 30px 0 0;
+    font-size: 17px;
+  }
+  .logos_title h3{
+   font-size: 30px;
+  }
+  .footer {
+    height: 230px;
+  }
+  .logos {
+    height: 1000px;
+  }
+  .logos_icons img {
+  
+  }
+  .logos_icons {
+    margin: 0px 0px 0px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  .shape {
+    margin: 0px 50px 50px 50px;
+  }
+  .f_icon1, .f_icon2, .f_icon3 {
+    z-index: 2;
+    margin: 40px 0px 50px 85px;
+  }
+  .fd h4{
+    font-size: 23px;
+  }
+  .fd p {
+    line-height: 1.3;
+    color: #07222f;
+    text-align: center;
+    width: 150px;
+    margin: 0px 0px 0px 50px;
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 730px){
+  .nav_links {
+    width: 100%;
+    height: 700px;
+  }
+  .intro {
+    height: 720px;
+  }
+  .features {
+    height: 1100px;
+  }
+  .data_analysis_image img {
+    margin: 0 0 0 10px;
+  }
+  .data_analysis p {
+    margin: 20px 0 0 30px;
+  }
+  .data_analysis_image {
+    margin: 0 auto;
+  }
+  .chatting_description {
+    margin: 200px 0 0 30px;
+  }
+  .chatting_image {
+    display: none;
+  }
+  .work_icons {
+    max-width: 200px;
+    flex-direction: column;
+    z-index: -10;
+  }
+  .w_icon1, .w_icon2, .w_icon3 {
+    margin: 50px auto;
+  }
+  .work_h, .work_description {
+  flex-direction: column;
+  z-index: 10;
+  top: 25%;
+  left: 25%;
+  }
+  .work_h{
+    
+  }
+  .work_h h4{
+    color: rgb(7, 6, 6);
+    z-index: 10;
+
+  }
+  .intro p {
+    padding: 20px 0;
+    width: 300px;
+    color: #ffffff;
+    font-weight: 200;
+    z-index: 2;
+  }
+  
+  /* Features mobile UI */
+  .shape {
+    width: 105px;
+    height: 115px;
+  }
+  .f_icon1, .f_icon2, .f_icon3 {
+    width: 60px;
+    height: 60px;
+    margin: 0px 0px 30px 0;
+  }
+  .options {
+    display: inline-block;
+  }
+  .logos_icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .features {
+    height: 1800px;
+  }
+  .modal-content {
+    width: 100%;
+  }
+  .signup_container {
+    margin: 40px 40px;
+  }
+  .logos_icons img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0px 20px 0px 20px;
+  }
+  .fd {
+    display: flex;
+    flex-direction: column;
+  }
+  .shape {
+    margin: 0px 0px 0px 130px;
+    height: 175px;
+    width: 175px;
+  }
+  
+  .f_icon1, .f_icon2, .f_icon3 {
+    z-index: 2;
+    margin: 40px 0px 50px 170px;
+    height: 85px;
+    width: 85px;
+  }
+  .features_heading {
+      padding: 80px;
+    }
+  .fd p {
+    margin: 20px 0px 20px 140px;
+    }
+    
+   .fd h4 {
+    margin: 20px 20px;
+    }
+    .logos_icons {
+      margin: 0px 0px 0px 0px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+  .shape {
+    margin: 0px 0px 0px 110px;
+  }
+  
+  .f_icon1, .f_icon2, .f_icon3 {
+    margin: 40px 0px 50px 150px;
+    height: 85px;
+    width: 85px;
+  }
+
+  .fd p {
+    margin: 20px 0px 20px 120px;
+    }
+  }
+
+
+@media screen and (max-width: 360px){
+  .intro_inner {
+    margin: 0 0 0 20px;
+    top: 150px;
+  }
+  .intro_title {
+    font-size: 35px;
+  }
+  .intro p {
+    font-size: 15px;
+    width: 250px;
+  }
+  .intro {
+    height: 650px;
+  }
+  .nav_links {
+    padding: 90px;
+    height: 650px;
+  }
+
+.logos_icons img {
+  max-width: 120px;
+  max-height: 120px;
+  margin: 0px 10px 0px 10px;
+}
+
+.shape {
+  margin: 0px 0px 0px 75px;
+}
+
+.f_icon1, .f_icon2, .f_icon3 {
+  margin: 40px 0px 50px 120px;
+  height: 85px;
+  width: 85px;
+}
+
+.fd p {
+  margin: 20px 0px 20px 90px;
+  }
+}
