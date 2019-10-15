@@ -56,3 +56,12 @@ const navSlide = () => {
 
 navSlide();
 
+
+// Back to top button 
+
+var mybutton = document.querySelector(".back_btn");
+
+mybutton.onclick = function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

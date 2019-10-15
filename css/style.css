@@ -476,62 +476,6 @@ hr {
   flex: 1;
 }
 
-
-/*
-.services {
-  display: flex;
-  flex-direction: row;
-}
-
-.services_description {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  line-height: 1.3;
-  color: #07222f;
-}
-
-.services_h {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.services_description p {
-  padding: 20px 0;
-  width: 300px;
-  font-weight: 200;
-  z-index: 2;
-  text-align: center;
-  color: #027f88;
-}
-
-.shape {
-  position: relative;
-  height: 155px;
-  width: 155px;
-  background-color: #eef5ff;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 50px auto;
-  z-index: -1;
-}
-
-.features_icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-  z-index: 1;
-  justify-content: space-around;
-  margin: 0px 0px -170px 0;
-  
-}
-*/
 /* OPTIONS */
 
 .options {
@@ -621,16 +565,27 @@ margin: 100px 0px 0px 0px;
   z-index: -2;
   }
 
-.work_icons {
-    position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 30px auto;
-  z-index: 1;
-  justify-content: space-around;
-  
+  .features_descript4 {
+    flex: 1;
   }
+  
+  .features_descript5 {
+    flex: 1;
+  }
+  
+  .features_descript6 {
+    flex: 1;
+  }
+
+  .wd {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .w_icon {
+    margin: 0px 0px 0px 65px;
+  }
+
 
   .w_title {
     text-align: center;
@@ -656,12 +611,10 @@ margin: 100px 0px 0px 0px;
     z-index: 2;
   }
 
-  .work_h {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  .wd h4 {
+    text-align: center;
     color: #ffffff;
+    font-size: 16px;
   }
 
   .work_h h4 {
@@ -674,21 +627,18 @@ margin: 100px 0px 0px 0px;
     font-weight: 200;
     z-index: 2;
   }
-  .work_description {
+  .wd p {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     line-height: 1.3;
     color: #ffffff;
+    text-align: center;
+    margin: 0px 20px 50px 20px;
   }
 
-  .work_description  p {
-    text-align: center;
-    max-width: 250px;
-    max-height: 100px;
-    line-height: 1.3;
-  }
+  
 
   /* LOGOS */
 
@@ -806,6 +756,9 @@ margin: 100px 0px 0px 0px;
 .footer img {
   margin: 0 -25px 0 15px;
 }
-
+ 
+.back_btn {
+  display: none;
+}
 
 

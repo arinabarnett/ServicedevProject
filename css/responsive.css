@@ -151,9 +151,6 @@
   .logos {
     height: 1000px;
   }
-  .logos_icons img {
-  
-  }
   .logos_icons {
     margin: 0px 0px 0px 70px;
     display: grid;
@@ -177,6 +174,9 @@
     width: 150px;
     margin: 0px 0px 0px 50px;
     font-size: 17px;
+  }
+  .w_icon {
+    margin: 0px 0px 0px 30px;
   }
 }
 
@@ -202,7 +202,9 @@
     margin: 0 auto;
   }
   .chatting_description {
-    margin: 200px 0 0 30px;
+    margin: 200px 0 0 50px;
+    max-width: 350px;
+    max-height: 200px;
   }
   .chatting_image {
     display: none;
@@ -221,9 +223,6 @@
   top: 25%;
   left: 25%;
   }
-  .work_h{
-    
-  }
   .work_h h4{
     color: rgb(7, 6, 6);
     z-index: 10;
@@ -235,6 +234,20 @@
     color: #ffffff;
     font-weight: 200;
     z-index: 2;
+  }
+  .back_btn {
+    margin: 0px 30px 0px 0px;
+    color: #3a9ef7;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-weight: 700;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+    border-color: #ecf3f8;
+  }
+  .footer_nav {
+    display: none;
   }
   
   /* Features mobile UI */
@@ -258,6 +271,25 @@
 }
 
 @media screen and (max-width: 414px){
+  .w_title {
+    margin: 200px 20px 0px 20px;
+  }
+  .work_fields {
+    height: 3200px;
+  }
+  .wd {
+    display: flex;
+    flex-direction: column;
+  }
+  .w_icon {
+    margin: 0px 0px 0px 100px;
+  }
+  .wd h4 {
+    font-size: 22px;
+  }
+  .wd p {
+   font-size: 17px;
+  }
   .features {
     height: 1800px;
   }
@@ -277,14 +309,14 @@
     flex-direction: column;
   }
   .shape {
-    margin: 0px 0px 0px 130px;
+    margin: 0px 0px 0px 120px;
     height: 175px;
     width: 175px;
   }
   
   .f_icon1, .f_icon2, .f_icon3 {
     z-index: 2;
-    margin: 40px 0px 50px 170px;
+    margin: 40px 0px 50px 165px;
     height: 85px;
     width: 85px;
   }
@@ -292,7 +324,7 @@
       padding: 80px;
     }
   .fd p {
-    margin: 20px 0px 20px 140px;
+    margin: 20px 0px 20px 130px;
     }
     
    .fd h4 {
@@ -307,6 +339,12 @@
 }
 
 @media screen and (max-width: 375px){
+  .w_icon {
+    margin: 0px 0px 0px 90px;
+  }
+  .work_fields {
+    height: 3200px;
+  }
   .shape {
     margin: 0px 0px 0px 110px;
   }
@@ -325,8 +363,7 @@
 
 @media screen and (max-width: 360px){
   .intro_inner {
-    margin: 0 0 0 20px;
-    top: 150px;
+    top: 250px;
   }
   .intro_title {
     font-size: 35px;
@@ -348,18 +385,60 @@
   max-height: 120px;
   margin: 0px 10px 0px 10px;
 }
+.data_analysis {
+  margin: 60px 30px 0px 0px;
+}
+.data_analysis p {
+  max-width: 250px;
+}
 
+.data_analysis_image {
+  float: none;
+  margin: 50px 0px 0 0;
+  max-width: 100px;
+}
+.data_analysis_image img {
+  width: 300px;
+  height: 300px;
+}
+.chatting_description {
+  margin: 100px 0 0 50px;
+}
+.w_icon {
+  margin: 0px 0px 0px 80px;
+}
 .shape {
-  margin: 0px 0px 0px 75px;
+  margin: 0px 0px 0px 90px;
 }
 
 .f_icon1, .f_icon2, .f_icon3 {
-  margin: 40px 0px 50px 120px;
+  margin: 40px 0px 50px 135px;
   height: 85px;
   width: 85px;
 }
 
 .fd p {
-  margin: 20px 0px 20px 90px;
+  margin: 20px 0px 20px 105px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .shape {
+    margin: 0px 0px 0px 70px;
+  }
+  .f_icon1, .f_icon2, .f_icon3 {
+    margin: 40px 0px 50px 110px;
+  }
+  .fd p {
+    margin: 20px 0px 20px 83px;
+  }
+  .w_icon {
+    margin: 0px 0px 0px 60px; 
+  }
+  .work_fields {
+    height: 3300px;
+  }
+  .logos {
+    height: 700px;
   }
 }
