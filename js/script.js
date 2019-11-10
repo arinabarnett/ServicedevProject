@@ -3,7 +3,7 @@
 const email = document.getElementById("email");
 const password = document.getElementById("psw");
 const password_repeat =  document.getElementById("psw-repeat");
-const close = document.getElementsByClassName("close");
+
 
 email.addEventListener("input", function (e) {
   if (email.validity.typeMismatch) {
@@ -35,7 +35,6 @@ const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav_links');
   const navLinks = document.querySelectorAll('.nav_links li');
-  const btn = document.getElementById("sign_up");
 
   burger.addEventListener('click', () => {
      // Toggle Navigation
@@ -59,7 +58,7 @@ navSlide();
 
 // Back to top button 
 
-var mybutton = document.querySelector(".back_btn");
+const mybutton = document.querySelector(".back_btn");
 
 mybutton.onclick = function topFunction() {
   document.body.scrollTop = 0;
