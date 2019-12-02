@@ -89,7 +89,7 @@
   .header_logo {
     opacity: 0;
   }
-}
+} 
 
 /* iPad */
 @media screen and (max-width: 768px){
@@ -296,9 +296,7 @@
   .modal-content {
     width: 100%;
   }
-  .signup_container {
-    margin: 40px 40px;
-  }
+ 
   .logos_icons img {
     max-width: 150px;
     max-height: 150px;
